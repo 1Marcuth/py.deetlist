@@ -12,6 +12,8 @@
 
 ### Submodule: Islands
 
+**Functions:**
+
 - `scrape_fog_islands()` : Get data from Fog Islands page;
 - `scrape_grid_islands()` : Get data from Grid Islands page;
 - `scrape_heroic_races()` : Get data from Heroic Races page;
