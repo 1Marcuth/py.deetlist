@@ -280,4 +280,4 @@ class DragonPageParser:
             production = self.production
         )
 
-__all__ = [ DragonPageParser ]
+__all__ = [ "DragonPageParser" ]

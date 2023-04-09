@@ -122,9 +122,9 @@ def parse_spawn_time(pool_time: str) -> int:
             return (days * SECONDS_PER_DAY) + (hours * MINUTES_PER_HOUR)
 
 __all__ = [
-    parse_attack_training_time,
-    parse_summon_time,
-    parse_breed_time,
-    parse_hatch_time,
-    parse_spawn_time
+   "parse_attack_training_time",
+    "parse_summon_time",
+    "parse_breed_time",
+    "parse_hatch_time",
+    "parse_spawn_time"
 ]

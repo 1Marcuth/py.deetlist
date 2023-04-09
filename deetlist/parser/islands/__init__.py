@@ -7,10 +7,11 @@ from .runner_islands import RunnerIslandsParser
 from .tower_islands import TowerIslandsParser
 
 __all__ = [
-    FogIslandsParser,
-    GridIslandsParser,
-    HeroicRacesParser,
-    MazeIslandsParser,
-    PuzzleIslandsParser,
-    RunnerIslandsParser
+    "FogIslandsParser",
+    "GridIslandsParser",
+    "HeroicRacesParser",
+    "MazeIslandsParser",
+    "PuzzleIslandsParser",
+    "RunnerIslandsParser",
+    "TowerIslandsParser"
 ]

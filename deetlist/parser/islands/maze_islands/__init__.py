@@ -49,4 +49,4 @@ class MazeIslandsParser:
             paths = self.paths
         )
 
-__all__ = [ MazeIslandsParser ]
+__all__ = [ "MazeIslandsParser" ]

@@ -90,4 +90,4 @@ class GridIslandsParser:
             dragons = self.dragons
         )
 
-__all__ = [ GridIslandsParser ]
+__all__ = [ "GridIslandsParser" ]

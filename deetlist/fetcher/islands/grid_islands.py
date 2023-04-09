@@ -6,4 +6,4 @@ class GridIslandsFetcher(BaseFetcher):
     def __init__(self) -> None:
         super().__init__(self.__url)
 
-__all__ = [ GridIslandsFetcher ]
+__all__ = [ "GridIslandsFetcher" ]

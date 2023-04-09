@@ -31,4 +31,4 @@ class LapParser:
             nodes = self.nodes
         )
 
-__all__ = [ LapParser ]
+__all__ = [ "LapParser" ]

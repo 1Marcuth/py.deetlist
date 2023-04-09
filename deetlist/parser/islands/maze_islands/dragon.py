@@ -86,4 +86,4 @@ class DragonParser:
             page_url = self.page_url
         )
 
-__all__ = [ DragonParser ]
+__all__ = [ "DragonParser" ]

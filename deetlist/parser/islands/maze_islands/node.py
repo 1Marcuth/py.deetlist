@@ -48,4 +48,4 @@ class NodeParser:
             cost = self.cost
         )
 
-__all__ = [ NodeParser ]
+__all__ = [ "NodeParser" ]

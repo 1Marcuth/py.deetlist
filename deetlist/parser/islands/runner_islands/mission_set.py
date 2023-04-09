@@ -17,4 +17,4 @@ class MissionSetParser:
     def get(self) -> list[dict]:
         return self.missions
 
-__all__ = [ MissionSetParser ]
+__all__ = [ "MissionSetParser" ]

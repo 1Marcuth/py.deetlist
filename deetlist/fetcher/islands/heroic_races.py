@@ -6,4 +6,4 @@ class HeroicRacesFetcher(BaseFetcher):
     def __init__(self) -> None:
         super().__init__(self.__url)
 
-__all__ = [ HeroicRacesFetcher ]
+__all__ = [ "HeroicRacesFetcher" ]

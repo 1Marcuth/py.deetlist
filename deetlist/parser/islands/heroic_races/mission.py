@@ -41,4 +41,4 @@ class MissionParser:
             spawn_chance = self.spawn_chance
         )
 
-__all__ = [ MissionParser ]
+__all__ = [ "MissionParser" ]

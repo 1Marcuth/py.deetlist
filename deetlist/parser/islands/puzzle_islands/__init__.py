@@ -92,4 +92,4 @@ class PuzzleIslandsParser:
             missions = self.missions
         )
 
-__all__ = [ PuzzleIslandsParser ]
+__all__ = [ "PuzzleIslandsParser" ]

@@ -34,4 +34,4 @@ class PathParser:
             nodes = self.nodes
         )
 
-__all__ = [ PathParser ]
+__all__ = [ "PathParser" ]

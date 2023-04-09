@@ -64,4 +64,4 @@ class NewDragonsParser:
         dragons = [ DragonParser(dragon_selector).get() for dragon_selector in dragons_selector ]
         return dragons
 
-__all__ = [ NewDragonsParser ]
+__all__ = [ "NewDragonsParser" ]

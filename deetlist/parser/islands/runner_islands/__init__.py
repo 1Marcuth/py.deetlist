@@ -92,4 +92,4 @@ class RunnerIslandsParser:
             mission_sets = self.mission_sets
         )
 
-__all__ = [ RunnerIslandsParser ]
+__all__ = [ "RunnerIslandsParser" ]

@@ -92,4 +92,4 @@ class HeroicRacesParser:
             laps = self.laps
         )
 
-__all__ = [ HeroicRacesParser ]
+__all__ = [ "HeroicRacesParser" ]

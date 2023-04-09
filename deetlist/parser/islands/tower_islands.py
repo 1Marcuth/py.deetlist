@@ -90,4 +90,4 @@ class TowerIslandsParser:
             dragons = self.dragons
         )
 
-__all__ = [ TowerIslandsParser ]
+__all__ = [ "TowerIslandsParser" ]

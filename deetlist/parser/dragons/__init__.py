@@ -3,7 +3,7 @@ from .page import DragonPageParser
 from .new import NewDragonsParser
 
 __all__ = [ 
-    AllDragonsParser,
-    DragonPageParser,
-    NewDragonsParser
+    "AllDragonsParser",
+    "DragonPageParser",
+    "NewDragonsParser"
  ]

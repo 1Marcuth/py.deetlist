@@ -9,4 +9,4 @@ class BaseScraper:
 
         return data
 
-__all__ = [ BaseScraper ]
+__all__ = [ "BaseScraper" ]

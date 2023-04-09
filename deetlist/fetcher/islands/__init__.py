@@ -7,11 +7,11 @@ from .runner_islands import RunnerIslandsFetcher
 from .tower_islands import TowerIslandsFetcher
 
 __all__ = [
-    FogIslandsFetcher,
-    GridIslandsFetcher,
-    HeroicRacesFetcher,
-    MazeIslandsFetcher,
-    PuzzleIslandsFetcher,
-    RunnerIslandsFetcher,
-    TowerIslandsFetcher
+    "FogIslandsFetcher",
+    "GridIslandsFetcher",
+    "HeroicRacesFetcher",
+    "MazeIslandsFetcher",
+    "PuzzleIslandsFetcher",
+    "RunnerIslandsFetcher",
+    "TowerIslandsFetcher"
 ]

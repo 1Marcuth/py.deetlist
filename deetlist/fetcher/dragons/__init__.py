@@ -1,10 +1,10 @@
 from .all import AllDragonsFetcher
-from .page import DragonPageFetcher, DragonPageAsyncFetcher
+from .page import DragonPageFetcher, DragonPagesAsyncFetcher
 from .new import NewDragonsFetcher
 
 __all__ = [
-    AllDragonsFetcher,
-    DragonPageFetcher,
-    DragonPageAsyncFetcher,
-    NewDragonsFetcher
+    "AllDragonsFetcher",
+    "DragonPageFetcher",
+    "DragonPagesAsyncFetcher",
+    "NewDragonsFetcher"
 ]

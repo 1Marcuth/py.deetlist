@@ -38,4 +38,12 @@ DRAGON_ELEMENTS = {
     "ti": "time"
 }
 
-__all__ = [ DRAGON_ELEMENTS ]
+__all__ = [
+    "DRAGON_ELEMENTS",
+    "DRAGON_RARITYS",
+    "MINUTES_PER_HOUR",
+    "HORS_PER_DAY",
+    "SECONDS_PER_MINUTE",
+    "SECONDS_PER_HOUR",
+    "SECONDS_PER_DAY"
+]

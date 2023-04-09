@@ -48,4 +48,4 @@ class MissionParser:
             icon_url = self.icon_url
         )
 
-__all__ = [ MissionParser ]
+__all__ = [ "MissionParser" ]

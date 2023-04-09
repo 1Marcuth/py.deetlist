@@ -31,4 +31,4 @@ class NodeParser:
             missions = self.missions
         )
 
-__all__ = [ NodeParser ]
+__all__ = [ "NodeParser" ]

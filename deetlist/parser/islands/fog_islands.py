@@ -90,4 +90,4 @@ class FogIslandsParser:
             dragons = self.dragons
         )
 
-__all__ = [ FogIslandsParser ]
+__all__ = [ "FogIslandsParser" ]

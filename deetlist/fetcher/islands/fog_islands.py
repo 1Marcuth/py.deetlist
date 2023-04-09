@@ -6,4 +6,4 @@ class FogIslandsFetcher(BaseFetcher):
     def __init__(self) -> None:
         super().__init__(self.__url)
 
-__all__ = [ FogIslandsFetcher ]
+__all__ = [ "FogIslandsFetcher" ]

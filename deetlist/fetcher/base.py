@@ -36,4 +36,4 @@ class BaseAsyncFetcher:
     def run(self, urls_params: list[tuple[str, dict | None]]):
         return asyncio.run(self.fetch(urls_params))
 
-__all__ = [ BaseFetcher, BaseAsyncFetcher ]
+__all__ = [ "BaseFetcher"," BaseAsyncFetcher" ]

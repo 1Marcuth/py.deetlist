@@ -31,4 +31,4 @@ class MissionParser:
             quantity_of_pieces = self.quantity_of_pieces
         )
 
-__all__ = [ MissionParser ]
+__all__ = [ "MissionParser" ]

@@ -13,7 +13,7 @@ class DragonPageFetcher(BaseFetcher):
 
         super().__init__(url)
 
-class DragonPageAsyncFetcher(BaseAsyncFetcher):
+class DragonPagesAsyncFetcher(BaseAsyncFetcher):
     __urls_params = []
 
     @validate_arguments
@@ -28,4 +28,4 @@ class DragonPageAsyncFetcher(BaseAsyncFetcher):
     def run(self) -> list[dict]:
         return super().run(self.__urls_params)
 
-__all__ = [ DragonPageFetcher, DragonPageAsyncFetcher ]
+__all__ = [ "DragonPageFetcher", "DragonPagesAsyncFetcher" ]
